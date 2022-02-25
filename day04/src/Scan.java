@@ -23,6 +23,7 @@ public class Scan {
         System.out.println("请输入你的性别：(男/女)");
         String TF = scan.next();
         char TFChar = TF.charAt(0);   //获取索引为0位置的字符
+        //charAt方法
         System.out.println(TFChar);
     }
 }
